@@ -1,0 +1,225 @@
+
+@font-face  {
+    font-family: 'balona';
+    src: url('Balona-Regular.otf'), src: url('fonts/Balona-Regular.ttf');
+}
+@font-face  {
+    font-family: 'adorage';
+    src: url('Adorage.otf');
+}
+
+/*~~~~~~~~~~~~~~~~ GERAL~~~~~~~~~~~~~~~~~~~~~~*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+p{
+    font-size: 1.3em;
+    text-justify: ;
+}
+
+/*~~~~~~~~~~~~~~~~ HEADER ~~~~~~~~~~~~~~~~~~~~*/
+
+header{
+    background-image: linear-gradient(to bottom, #000000, #0f0f0f, #191919);
+    color: whitesmoke;
+    padding: 40px 0px ;
+    text-justify: auto;
+    text-align: center;
+    box-shadow:-2px 4px 8px #000000e5;
+    
+    
+}
+header > h1{
+    font-family: 'balona';
+   letter-spacing: 5px;
+   margin-bottom: 3px;
+   font-size: 2.5em;
+}
+header > h2{
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+header p{
+    margin-top: 10px;
+    font-size: 0.8em;
+    
+}
+
+/*~~~~~~~~~~~~~~~~ MAIN ~~~~~~~~~~~~~~~~~~~~~~*/
+
+main h2{
+    padding: 20px;
+    font-family: 'adorage';
+    font-size: 2em;
+    text-shadow: 2px 2px 5px #676789e3;
+}
+
+
+/*~~~~~~~~~~~~~~~ artigo ~~~~~~~~~~~~~~~~~~~~~*/
+
+article{
+    padding-top: 30px;
+    
+}
+
+#artigo1{
+    border-bottom: 2px ridge #1e1e1ec4;
+    box-shadow: 3px 3px 5px black;
+  
+}
+
+#artigo2{
+    background-image: url('jase-bloor.jpg');
+    background-attachment: fixed;
+    background-size: auto;
+    height: 850px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div p{
+    background-color: #101010b5;
+    width: 310px;
+    margin-left: 5px;
+    border-radius: 10px 0px 10px 0px;
+    margin-top: 80px;
+    font-size: 1.1em;
+    color: white;
+    text-transform: uppercase;
+    padding: 5px 0px 5px 5px;
+    
+    
+} 
+artigo2 > h2{
+    background-color: #e7e7e7b0;
+    padding: 20px;
+}
+
+#artigo3{
+    border-top: 2px ridge #1e1e1ec4;
+    border-bottom: 2px ridge #1e1e1ec4;
+    box-shadow: 3px 3px 5px black;
+    
+}
+#artigo3 p{
+    display: block;
+    padding: 20px;
+    text-justify: auto;
+    
+    
+    
+}
+#artigo4{
+     background-image: url('henry-be.jpg');
+    background-attachment: fixed;
+    background-size: auto;
+    height: 750px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#artigo4 p{
+    padding: 5px 0px 5px 5px;
+    background-color: #e7e7e7b0;
+    margin-left: 10px;
+    max-width: 310px;
+    margin-top: 40px;
+    border-radius: 10px 0px 10px 0px;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    
+}
+
+
+#artigo5{
+    border-top: 2px ridge #1e1e1ec4;
+    border-bottom: 2px ridge #1e1e1ec4;
+    box-shadow: 3px 3px 5px black;
+    
+}
+#artigo5 p{
+    padding: 20px;
+    margin-top: 0px;
+    text-justify: auto;
+    
+}
+
+
+.title2{
+    text-align: center;
+}
+
+/*~~~~~~~~~~~~~~~~ ASIDE ~~~~~~~~~~~~~~~~~~~~~*/
+
+#poeta{
+    background-image: url('Poeta.jpg');
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+aside{
+    border-top: 2px ridge #1e1e1ec4;
+    text-align: center;
+    margin: auto;
+}
+
+aside img{
+    padding: 90px 0px 5px 15px;
+    min-width: 150px;
+    max-width: 200px;
+    border-radius: 10px 10px 10px 10px;
+    display: block;
+    margin: auto;
+   margin-bottom: 0px;
+   padding-bottom: 0px;
+    
+    
+    
+}
+aside p{
+    display: block;
+    padding: 20px;
+    text-align: left;
+    margin-top: px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    text-shadow: 2px 2px 5px #8d41c2e0;
+}
+a:hover{
+    text-decoration: underline;
+}
+aside a{
+    margin-top: 0px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-left: 15px;
+}
+/*~~~~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~~~~~~~*/
+
+footer{
+    background-image: linear-gradient(to bottom, #000000, #0f0f0f, #191919);
+    color: whitesmoke;
+    padding: 40px 0px ;
+    text-justify: auto;
+    text-align: center;
+    box-shadow: -1px -3px 5px #0f0f10e7;
+    width: 100vw;
+}
+
+footer a{color: whitesmoke;}
+#a2{
+    display: inline;
+}
